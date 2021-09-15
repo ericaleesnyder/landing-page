@@ -1,0 +1,62 @@
+* {
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    line-height: 100px;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+footer {
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 50px;
+}
+
+.display-inline {
+    display: inline
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.section-1 {
+    padding-top: 110px;
+}
+
+.img {
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border: solid 2px black;
+}
+
+.contact {
+    display: block;
+    margin: auto;
+}
