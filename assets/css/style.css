@@ -6,11 +6,22 @@
 
 header {
     width: 100%;
-    background-color: red;
+    background-color: #F2D5BB;
     position: fixed;
     top: 0;
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    color: #1B3C59;
+    border-bottom: 3px dashed #F28177
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    padding-bottom: 5px;
 }
 
 li {
@@ -18,18 +29,33 @@ li {
     padding: 0px 20px;
     text-decoration: none;
 }
+
 a {
     text-decoration: none;
 }
 
 footer {
     height: 50px;
-    background-color: red;
-    position: fixed;
+    background-color: #F2D5BB;
     bottom: 0;
     width: 100%;
     line-height: 50px;
+    margin-top: 20px;
+    border-top: 3px dashed #F28177
 }
+
+figure {
+    margin: 10px 50px 10px 50px
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #1B3C59;
+    border-radius: 20px;
+  }
 
 .display-inline {
     display: inline
@@ -53,10 +79,21 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
     display: block;
-    border: solid 2px black;
+    border: solid 2px #1B3C59;
+    width: 40%;
+    padding: 10px;
+    background-color: #B0BFB5;
 }
 
 .contact {
     display: block;
     margin: auto;
+    padding: 10px
 }
+
+/* Color Theme Swatches in Hex */
+.NCC-2022_TEST_Theme-1-hex { color: #1B3C59; }
+.NCC-2022_TEST_Theme-2-hex { color: #B0BFB5; }
+.NCC-2022_TEST_Theme-3-hex { color: #F2D5BB; }
+.NCC-2022_TEST_Theme-4-hex { color: #F2A999; }
+.NCC-2022_TEST_Theme-5-hex { color: #F28177; }
